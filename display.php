@@ -6,6 +6,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700,900" rel="stylesheet">
     <title>stats</title>
+  
+  
+<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCnftsCdu-GZ4Zd1g_3mqt6ey8kJ4f7WrI",
+    authDomain: "aaaa-f4419.firebaseapp.com",
+    databaseURL: "https://aaaa-f4419.firebaseio.com",
+    projectId: "aaaa-f4419",
+    storageBucket: "aaaa-f4419.appspot.com",
+    messagingSenderId: "162434573268"
+  };
+  firebase.initializeApp(config);
+</script>
 
 </head>
 
